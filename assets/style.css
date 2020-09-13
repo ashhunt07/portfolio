@@ -170,8 +170,13 @@ form .form-control::placehoålder {
     padding: 5px 5%;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
     background-color: #55046E;
+    border: 0px!important;
+    outline: 0px!important;
+    box-shadow: 0px!important;
 }
 
 
