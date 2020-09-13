@@ -28,12 +28,12 @@ h2 {
 }
 
 .portLink {
-    color: #59A0B0;
+    color: #5D256E;
     font-weight: 500;
 }
 
 .portLink:hover {
-    color: #59A0B0;
+    color: #55046E;
     text-decoration: none;
 }
 
@@ -65,6 +65,8 @@ nav .nav-brand {
     color: #fefefe;
     font-size: 18px;
     font-weight: 300;
+    font-family: 'Poiret One', cursive;
+    margin-left: 2%;
 }
 
 nav .nav-brand:hover {
@@ -124,6 +126,10 @@ section {
     padding: .5em 2.5%;
 }
 
+.card-img {
+    margin-bottom: 1em;
+}
+
 
 /* Social Icons */
 
@@ -159,13 +165,13 @@ form .form-control::placehoålder {
 /* Button Styles */
 
 .btn-primary {
-    background-color: #59A0B0;
+    background-color: #5D256E;
     border: 0px;
     padding: 5px 5%;
 }
 
 .btn-primary:hover {
-    background-color: #356069;
+    background-color: #55046E;
 }
 
 
