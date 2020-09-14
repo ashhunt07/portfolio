@@ -21,7 +21,7 @@ Here are some details:
 ### __Example__
 <br>
 
-![Screen Cap](./assets/images/port-screen-cap.png)
+![Screen Cap](resources/port-screen-cap.png)
 
 <br>
 
