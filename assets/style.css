@@ -3,10 +3,6 @@
 body {
     width: 100%;
     height: auto;
-    padding: 0 auto;
-    /* background-image: url('../images/black_thread_@2X.png'); */
-    background-repeat: repeat;
-    background-size: auto;
 }
 
 
@@ -79,7 +75,6 @@ nav .nav-brand:hover {
 
 .nav-link:hover {
     color: #EDB020;
-    /* font-weight: 500; */
 }
 
 .nav-item,
@@ -104,14 +99,25 @@ nav .nav-brand:hover {
 
 /* Main Content */
 
-main {
-    width: 99%;
+.row {
+    width: 100%;
+    padding: 1em 0;
+}
+
+.portRow {
+    width: 100%;
     padding: 3em 0;
     margin: 0 auto;
 }
 
 section {
-    margin: 5em 0 2em 6%;
+    padding: 5em 0 2em 0;
+    /* margin: 0 auto; */
+}
+
+.section {
+    width: 95%!important;
+    margin: 0 2.5%;
 }
 
 .introduction {
@@ -120,10 +126,6 @@ section {
 
 .introBody {
     padding-top: 0;
-}
-
-.boxPad {
-    padding: .5em 2.5%;
 }
 
 .card-img {
@@ -136,9 +138,6 @@ section {
 .social {
     max-width: 40px;
     display: inline-block;
-}
-
-.social:first-child {
     padding-right: 2%;
 }
 
@@ -187,20 +186,18 @@ form .form-control::placehoålder {
 }
 
 .portItem {
-    /* border: 1px solid #ddecef; */
     border: none;
-    margin-bottom: 100px;
     -webkit-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
 }
 
-.card .portItem {
-    margin: 2em;
-}
-
 .card-text {
     font-size: 14px;
+}
+
+.boxPad {
+    padding: .5em 2.5%;
 }
 
 
@@ -220,7 +217,11 @@ footer {
 @media (min-width: 576px) {
     /* About Image */
     .card-columns {
-        column-count: 1;
+        column-count: 2;
+    }
+    .section {
+        width: 95%!important;
+        margin: 0 2.5%;
     }
 }
 
@@ -230,7 +231,11 @@ footer {
 @media (min-width: 768px) {
     /* About Image */
     .card-columns {
-        column-count: 1;
+        column-count: 2;
+    }
+    .section {
+        width: 95%;
+        margin: 0 5%;
     }
 }
 
@@ -244,8 +249,9 @@ footer {
         padding-top: 0;
         display: inline-block;
     }
-    .social {
-        max-width: 8%;
+    .section {
+        width: 100%;
+        margin: 0 5%;
     }
     .card-columns {
         column-count: 2;
@@ -256,18 +262,15 @@ footer {
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    main {
+    .section {
         width: 100%;
+        margin: 0 5%;
     }
     .nav-item,
     .nav-link {
         width: auto;
         text-align: right;
         padding-top: 0;
-    }
-    /* Social Icons */
-    .social {
-        max-width: 6%;
     }
     form {
         width: 90%;
