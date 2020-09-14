@@ -54,7 +54,7 @@ header {
 }
 
 nav .logo {
-    width: 50px;
+    width: 40px;
 }
 
 nav .nav-brand {
@@ -62,7 +62,7 @@ nav .nav-brand {
     font-size: 18px;
     font-weight: 300;
     font-family: 'Poiret One', cursive;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 nav .nav-brand:hover {
